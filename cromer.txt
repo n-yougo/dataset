@@ -1,0 +1,8 @@
+Identification of genes associated with tumorigenesis and metastatic potential of hypopharyngeal cancer by microarray analysis.
+Cromer A1, Carles A, Millon R, Ganguli G, Chalmel F, Lemaire F, Young J, Dembele D, Thibault C, Muller D, Poch O, Abecassis J, Wasylyk B.
+
+Diagnostic classes:
+- hypopharyngeal cancer (T): 34 examples (89.5%)
+- normal tissue (N): 4 examples (10.5%)
+Number of genes: 9021
+Number of samples: 38

@@ -1,6 +1,6 @@
 # datamicroarray
 
-The R package `datamicroarray` provides a collection of scripts to download, process, and load small-sample, high-dimensional microarray data sets to assess machine learning algorithms and models. For each data set, we include a small set of scripts that automatically download, clean, and save the data set.
+The dataset of the University of Western Ontario.
 
 ## Data Sets
 
@@ -80,8 +80,6 @@ Here is a summary for the [Alon et al. (1999) Colon Cancer data set](https://git
 
 You can see all of the data sets available along with a brief summary of each with the `describe_data` helper function. Here it is in action:
 
-```r
-> describe_data()
         author year   n     p K              Disease
 1         alon 1999  62  2000 2         Colon Cancer
 2    borovecki 2005  31 22283 2 Huntington's Disease

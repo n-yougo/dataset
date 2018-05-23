@@ -59,7 +59,7 @@ After loading the data set, the resulting object is a named `list` with two elem
 
 Here is a summary for the [Alon et al. (1999) Colon Cancer data set](https://github.com/ramey/datamicroarray/wiki/Alon-%281999%29).
 
-##Alon et al. (1999)
+## Alon et al. (1999)
  Description
  Response is y=1 or y=-1 according as tissue is normal or tumor There are 2000 gene expressions.
  Data	y=1	y=–1	Total

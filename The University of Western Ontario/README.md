@@ -20,22 +20,6 @@ Each data set is listed below by the first author on the original paper. The dat
   * [Sporadic ()]()
   * [Veer ()] ()
 
-## Usage
-
-Once you have installed and loaded the `datamicroarray` package, you can load a data set with the `data` command. For example, to load the well-known [Alon et al. (1999) Colon Cancer data set](https://github.com/ramey/datamicroarray/wiki/Alon-%281999%29), type the following at the R console:
-
-```r
-library(datamicroarray)
-data('alon', package = 'datamicroarray')
-```
-
-After loading the data set, the resulting object is a named `list` with two elements:
-
-1. `x` - the data matrix. The rows are the `n` observations, and the columns are the `p` features.
-2. `y` - a factor vector of length `n` with the corresponding class labels.
-
-Here is a summary for the [Alon et al. (1999) Colon Cancer data set](https://github.com/ramey/datamicroarray/wiki/Alon-%281999%29).
-
 ## Alon et al. (1999)
 * Description
 

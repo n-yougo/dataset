@@ -43,17 +43,6 @@ Each data set is listed below by the first author on the original paper. The dat
   * [Su (2002)](https://github.com/ramey/datamicroarray/wiki/Su-%282002%29)
   * [Subramanian (2005)](https://github.com/ramey/datamicroarray/wiki/Subramanian-%282005%29)
 
-## Installation
-
-You can install the latest package version by typing the following at the R console:
-
-```r
-library(devtools)
-install_github('ramhiser/datamicroarray')
-```
-
-Note that you need to install the `devtools` package beforehand.
-
 ## Usage
 
 Once you have installed and loaded the `datamicroarray` package, you can load a data set with the `data` command. For example, to load the well-known [Alon et al. (1999) Colon Cancer data set](https://github.com/ramey/datamicroarray/wiki/Alon-%281999%29), type the following at the R console:
@@ -70,13 +59,17 @@ After loading the data set, the resulting object is a named `list` with two elem
 
 Here is a summary for the [Alon et al. (1999) Colon Cancer data set](https://github.com/ramey/datamicroarray/wiki/Alon-%281999%29).
 
-```r
-> dim(alon$x)
-[1]   62 2000
-> table(alon$y)
- n  t 
-22 40 
-```
+##Alon et al. (1999)
+Description
+Response is y=1 or y=-1 according as tissue is normal or tumor There are 2000 gene expressions.
+Data	y=1	y=–1	Total
+train	14	26	40
+test	8	14	22
+
+Colon adenocarcinoma tissues were collected from patients and from some of these patients, paired normal colon tissue also was obtained. Gene expression in 40 tumor and 22 normal colon tissue samples was analyzed with an Affymetrix oligonucleotide array complementary to more than 6500 human genes. The data set contains the expression of the 2000 genes with highest minimal intensity across the 62 tissues. Each gene intensity has been derived from the about 20 feature pairs that correspond to the gene on the chip by using a filtering process. The data is otherwise unprocessed, i.e. no normalization has been performed yet. The training set consists of 40 colon tissues of which 14 are normal and 26 tumor samples. The test set consists of 22 tissues of which 8 are normal and 14 tumor samples. The number of gene expression levels is 2000. The goal here is to classify the tissues as being cancerous or noncancerous.
+
+
+##
 
 You can see all of the data sets available along with a brief summary of each with the `describe_data` helper function. Here it is in action:
 

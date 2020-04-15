@@ -1,0 +1,9 @@
+Profiling and functional annotation of mRNA gene expression in pediatric rhabdomyosarcoma and Ewing's sarcoma.
+Baer C1, Nees M, Breit S, Selle B, Kulozik AE, Schaefer KL, Braun Y, Wai D, Poremba C.
+
+Diagnostic classes:
+- Ewing's sarcoma (EWS): 11 examples (47.8%)
+- Rhabdomyosarcoma (RMS): 12 examples (52.2%)
+Number of genes: 9945
+Number of samples: 23
+Note: From the originally measured 12625 probe sets we removed genes that were not present (P) in at least one sample
